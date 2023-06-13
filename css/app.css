@@ -1,0 +1,209 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 72px;
+    background: linear-gradient( #18171c7a, #18171c7a),url(img1.jpg) no-repeat;
+    background-size: cover;
+    
+}
+
+
+.logo{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.bmwlogo{
+    width: 10%;
+}
+
+.animate-charcter
+{
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        #1D1B1E 0%,
+        #638CB3 29%,
+        #FFFFFF 67%,
+        #919598 100%
+        );
+        background-size: auto auto;
+        background-clip: border-box;
+        background-size: 200% auto;
+        color: #fff;
+        background-clip: text;
+        text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 2s linear infinite;
+        display: inline-block;
+        font-size: 190px;
+        font-family: "Poppins", sans-serif;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+}
+}
+.txtscreen{
+    position: absolute;
+    top: 150px;
+}
+.text1{
+    position: absolute;
+    top: 570px;
+    left: 420px;
+    width: 800px;
+}
+.q1{
+    color: rgba(240, 248, 255, 0.855);
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px;
+}
+.img2{
+    position: absolute;
+    top: 900px;
+}
+.bmwcar{
+    width: 100%;
+}
+/*second*/
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: hsl(0, 0%, 100%);
+}
+.wrapper {
+    position: absolute;
+    top: 1450px;
+    left: 100px;
+    display: grid;
+    place-content: center;
+    background-color: var(--background-color);
+    font-family: "Oswald", sans-serif;
+    font-size: clamp(1.5rem, 1rem + 18vw, 15rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-size: 100px;
+}
+
+.wrapper > div {
+    grid-area: 1/1/-1/-1;
+}
+.top {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%);
+}
+.bottom {
+    clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
+    color: transparent;
+    background: -webkit-linear-gradient(177deg, black 53%, var(--text-color) 65%);
+    background: linear-gradient(177deg, black 53%, var(--text-color) 65%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transform: translateX(-0.02em);
+}
+.text2{
+    position: absolute;
+    top: 1550px;
+    left: 110px;
+    width: 65%;
+}
+.p1{
+    font-size: 35px;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+}
+.bmwcar2{
+    width: 100%;
+    height: 740px;
+}
+.img3{
+    position: absolute;
+    top: 1700px;
+}
+.p2{
+    font-size: 6vw;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 750;
+    position: absolute;
+    top: 1700px;
+    left: 110px;
+}
+.fancy {
+    @supports (background-clip: text) or (-webkit-background-clip: text) {
+        background-image: url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2300A080' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%2300FDCF'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%2300FDCF'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
+        background-size: 110% auto;
+        background-position: center;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+}
+.text3{
+    position: absolute;
+    top: 1900px;
+    left: 124px;
+    width: 53%;
+    background-color: #1d1b1e7a;
+    border-radius: 8px;
+}
+.p3{
+    font-size: 34px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.button-1 {
+    background-color: #1c69d4;;
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    max-width: none;
+    min-height: 44px;
+    min-width: 10px;
+    outline: none;
+    overflow: hidden;
+    padding: 9px 20px 8px;
+    position: absolute;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    top: 2200px;
+    left: 124px;
+    
+}
+.button-31:hover,
+.button-31:focus {
+    opacity: .75;
+}
+.credits{
+    position: absolute;
+    top: 2380px;
+    color: #1D1B1E;
+    font-size: 20px;
+    font-weight: 700;
+    right: 10px;
+    font-family: "Poppins", sans-serif;
+}
